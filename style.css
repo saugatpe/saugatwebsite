@@ -1,0 +1,47 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-image: url('pic.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: auto;
+}
+
+.logo {
+    color: white;
+    font-size: 40px;
+    font-style: italic;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    background-color:black;
+}
+
+ul li {
+    float: right;
+}
+
+ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-stretch: expanded;
+}
+
+ul li a:hover:not(.active){
+background-color: green;
+}
+
+.active {
+    background-color: slateblue;
+}
